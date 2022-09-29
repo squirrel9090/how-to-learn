@@ -16,6 +16,7 @@
   font-family:  'Helvetica Neue', 'Arial', sans-serif;
   display: flex;
   position: relative;
+  border: 3px solid green;/*для себя чтоб видеть*/
 
   /* выше установили ограничения для секции */
 }
@@ -51,20 +52,21 @@
   position: absolute;
   width: 765px;
   height: 608px;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   z-index: 1;
+  border: 3px solid green;/*для себя чтоб видеть*/
 }
 
 .header_square-pic{
   position: absolute;
-  width: 566px;
-  height: 566px;
-  border: 1px solid #2f80ed;
+  width: 568px;
+  height: 568px;
   background-color: #2f80ed;
   top: 64px;
-  right: 0px;
+  right: 0;
   z-index: 0;
+  border: 1px solid green;/*для себя чтоб видеть*/
 }
 
 .logo{
@@ -78,16 +80,121 @@
   left: 64px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.two-columns{
+  display: flex;
+  position: relative;
+  width: 80%;
+  top: 100px;
+  bottom: 100px;
+  justify-content: space-between;
+  margin: 0 auto;
+  border: 3px solid green;/*для себя чтоб видеть*/
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.two-columns__brief{
+  text-decoration: none;
+  color: #2f80ed;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  align-items: flex-end;
+  width: 75px;
+  margin: 0 auto;
+}
+
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph{
+  top: 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  border: 3px solid green;/*для себя чтоб видеть*/
+  margin: 0 auto;
+}
+
+.two-columns__title{
+  margin: 0 auto;
+}
+
+.two-columns__span-accent{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.two-columns__paragraph:first-of-type{
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type{
+  margin-top: 30px;
+}
+/*блок digits*/
+
+.digits{
+  display: flex;
+  position: relative;
+  width: 80%;
+  top: 100px;
+  bottom: 100px;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  border: 3px solid green;/*для себя чтоб видеть*/
+}
+
+.section-title{
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 60%;
+  text-align: center;
+  border: 3px solid green;/*для себя чтоб видеть*/
+}
+
+.section-subtitle{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 60%;
+  text-align: center;
+  border: 3px solid green;/*для себя чтоб видеть*/
+}
+
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto;
+  border: 3px solid green;/*для себя чтоб видеть*/
+}
+
+.table__cell{
+  margin: 0 auto;
+  width: 250px;
+  margin-top: 60px;
+  border: 3px solid green;/*для себя чтоб видеть*/
+}
+
+.table__heading{
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.table__text{
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-top: 20px;
+  margin: 0 auto;
 }
