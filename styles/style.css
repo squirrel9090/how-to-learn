@@ -297,6 +297,8 @@
 }
 
 .footer__columns {
+  display: flex;
+  justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 40px;
   width: 90%;
@@ -308,10 +310,6 @@
 .footer__column {
   padding: 0;
 }
-
-.footer__column_info {}
-
-.footer__column_content_social {}
 
 .footer__column_content_copyright {
   display: flex;
