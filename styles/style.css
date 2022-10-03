@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f2f2f2;
 }
 
 .header {
@@ -17,6 +16,7 @@
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   display: flex;
   position: relative;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -83,12 +83,11 @@
 .two-columns {
   display: flex;
   position: relative;
-  padding-left: 10%;
-  padding-right: 10%;
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 100px;
   background-color: white;
+  width: 80%;
 }
 
 .two-columns__brief {
