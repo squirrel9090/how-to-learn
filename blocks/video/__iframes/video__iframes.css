@@ -1,0 +1,8 @@
+.video__iframes {
+  display: grid;
+  grid-template-columns: repeat(2, 515px);
+  grid-template-rows: 316px;
+  grid-column-gap: 20px;
+  max-width: 1050px;
+  margin: 0 auto;
+}

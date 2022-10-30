@@ -1,0 +1,10 @@
+.cards__image {
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  align-items: center;
+  display: block;
+  margin: 60px auto 0;
+  overflow: hidden;
+}

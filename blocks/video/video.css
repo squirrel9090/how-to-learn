@@ -1,0 +1,6 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  overflow: inherit;
+  position: relative;
+}
