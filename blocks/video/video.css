@@ -3,4 +3,5 @@
   flex-direction: column;
   overflow: inherit;
   position: relative;
+  margin-bottom: -50px;
 }
